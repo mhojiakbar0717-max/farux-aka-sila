@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasturchi Hayoti</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+          
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            border-radius: 3px;
+        }
+
+        body {
+            background-color: #f2f3f7;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .card {
+            border-radius: 8px;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        
+        .header-card {
+            background-color: #1b264f;
+            color: #ffffff;
+        }
+
+        .header-card h1 {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .header-card p {
+            font-size: 13px;
+            color: #d1d5db;
+        }
+
+        
+        .white-card {
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        .white-card h2 {
+            font-size: 20px;
+            color: #2e7d32;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        .white-card p {
+            font-size: 13px;
+            color: #666666;
+            line-height: 1.4;
+        }
+
+
+        .green-card {
+            background-color: #7bf7ce;
+            text-align: left;
+        }
+
+        .green-card h2 {
+            text-align: center;
+            font-size: 20px;
+            color: #1b5e20;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .list-item {
+            border-left: 3px solid #00a896;
+            padding-left: 10px;
+            font-size: 13px;
+            color: #028090;
+            font-weight: 500;
+        }
+
+        .orange-card {
+            background-color: #ffeedd;
+            text-align: left;
+        }
+
+        .orange-card h2 {
+            text-align: center;
+            font-size: 20px;
+            color: #d84315;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        .orange-card .subtitle {
+            text-align: center;
+            font-size: 12px;
+            color: #8d6e63;
+            margin-bottom: 25px;
+        }
+
+        .orange-card .list-item {
+            border-left: 3px solid #f57c00;
+            color: #e65100;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="card header-card">
+            <h1>Dasturchi Hayoti</h1>
+            <p>O'zingizni qanday rivojlantirishingiz mumkinligini bilib oling!</p>
+        </div>
+
+        <!-- Section 1 -->
+        <div class="card white-card">
+            <h2>Dasturchi bo'lishning yo'li</h2>
+            <p>Dasturchi bo'lish uchun ko'plab harakatlar va o'rganishlar talab qilinadi. Ammo sabr va qat'iyatlilik
+                bilan har qanday orzuga erishish mumkin.</p>
+        </div>
+        <div class="card green-card">
+            <h2>Qadamlar</h2>
+            <div class="list">
+                <div class="list-item">HTML va CSSni o'rganish</div>
+                <div class="list-item">JavaScriptni o'rganish va amaliyot qilish</div>
+                <div class="list-item">Dasturlashni sevish va o'z maqsadlaringizni belgilash</div>
+                <div class="list-item">Kod yozish va real loyihalar yaratish</div>
+                <div class="list-item">Biror kompaniyada tajriba orttirish</div>
+            </div>
+        </div>
+
+        <!-- Section 3: Results -->
+        <div class="card orange-card">
+            <h2>Erishilgan Natijalar</h2>
+            <p class="subtitle">Dasturchilar bir nechta yirik loyihalarda ishlashlari, startap yaratishlari yoki yirik
+                kompaniyalarda ishlashlari mumkin.</p>
+            <div class="list">
+                <div class="list-item">Startap yaratish</div>
+                <div class="list-item">Yirik kompaniyalarda ishlash</div>
+                <div class="list-item">Freelance ishlar qilish</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

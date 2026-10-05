@@ -1,0 +1,174 @@
+body {
+    background-color: #f8f9da;
+    padding: 20px;
+    color: #3b3838;
+}
+
+.salom {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+    background-color: #1a252c;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+
+.intro-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.intro-text strong {
+    color: #2c7a7b;
+}
+
+.davay{
+    border: none;
+    height: 2px;
+    background-color: #e2e8f0;
+    margin-bottom: 25px;
+}
+
+
+.section-title {
+    background-color: #e6f6f4;
+    border: 1px solid #b2f5ea;
+    border-radius: 6px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #234e52;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.games-salom{
+    background-color: #edfaf7;
+    border: 1px solid #c4f1e6;
+    border-radius: 6px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.games-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.games-list li {
+    margin-bottom: 12px;
+    color: #2d3748;
+}
+
+.games-list li:last-child {
+    margin-bottom: 0;
+}
+
+.game-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #34495e;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+.game-link:hover {
+    background-color: #2c3e50;
+}
+.dls{
+    text-align: left;
+    width: 50;
+    height: 100;
+}
+.dls1{
+    text-align: center;
+    width:50;
+    height: 100;
+}
+.dls2{
+    text-align: right;
+    width: 50;
+    height: 100;
+}
+.gamer-content {
+            padding: 10px 5px 25px 5px;
+        }
+
+        .gamer-image {
+            max-width: 380px;
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            border: 3px solid #2c7a7b; 
+            display: block;
+            margin-bottom: 20px;
+        }
+        .gay{
+            text-align: center;
+        }
+
+        .gamer-text {
+            font-size: 15px;
+            color: #2d3748;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .gamer-text em {
+            font-style: italic;
+            color: #4a5568;
+        }
+
+        .highlight-box {
+            background-color: #d1ecf1;
+            padding: 8px 15px;
+            border-radius: 4px;
+            display: inline-block;
+            color: #0c5460;
+            font-weight: 500;
+        }
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding: 5px;
+            margin-top: 15px;
+        }
+
+        .footer-link {
+            align-self: flex-start;
+            background-color: #34495e;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            font-size: 14px;
+            min-width: 80px;
+            text-align: center;
+            transition: background-color 0.2s ease;
+        }
+
+        .footer-link:hover {
+            background-color: #2c3e50;
+        }

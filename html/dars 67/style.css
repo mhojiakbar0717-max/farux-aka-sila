@@ -1,0 +1,120 @@
+  
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            border-radius: 3px;
+        }
+
+        body {
+            background-color: #f2f3f7;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .card {
+            border-radius: 8px;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        
+        .header-card {
+            background-color: #1b264f;
+            color: #ffffff;
+        }
+
+        .header-card h1 {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .header-card p {
+            font-size: 13px;
+            color: #d1d5db;
+        }
+
+        
+        .white-card {
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        .white-card h2 {
+            font-size: 20px;
+            color: #2e7d32;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        .white-card p {
+            font-size: 13px;
+            color: #666666;
+            line-height: 1.4;
+        }
+
+
+        .green-card {
+            background-color: #7bf7ce;
+            text-align: left;
+        }
+
+        .green-card h2 {
+            text-align: center;
+            font-size: 20px;
+            color: #1b5e20;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .list-item {
+            border-left: 3px solid #00a896;
+            padding-left: 10px;
+            font-size: 13px;
+            color: #028090;
+            font-weight: 500;
+        }
+
+        .orange-card {
+            background-color: #ffeedd;
+            text-align: left;
+        }
+
+        .orange-card h2 {
+            text-align: center;
+            font-size: 20px;
+            color: #d84315;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        .orange-card .subtitle {
+            text-align: center;
+            font-size: 12px;
+            color: #8d6e63;
+            margin-bottom: 25px;
+        }
+
+        .orange-card .list-item {
+            border-left: 3px solid #f57c00;
+            color: #e65100;
+        }
+    
